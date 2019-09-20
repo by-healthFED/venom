@@ -28,4 +28,9 @@ module.exports = [{
 	path: './src/games/SlotMachine/index.js',
 	templatename: '老虎机',
 	template: './src/example/slotmachine.ejs'
+},{
+	name: 'redenvelope',
+	path: './src/games/RedEnvelope/index.js',
+	templatename: '拆红包',
+	template: './src/example/redenvelope.ejs'
 }];
