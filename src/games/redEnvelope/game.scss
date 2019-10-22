@@ -31,6 +31,7 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    z-index: 1;
   }
 
   .redpackopen{
@@ -42,6 +43,7 @@
     top: 0;
     margin: 0 auto;
     position: absolute;
+    border-radius: 0.5em;
     z-index: 9;
     top: 0;
     transition: .5s ease-in-out;
@@ -61,6 +63,7 @@
     height: 80%;
     background-color: #f45e4d;
     border-radius: 0 0 50% 50% / 0 0 15% 15%;
+    -webkit-border-radius: 0 0 50% 50% / 0 0 15% 15%;
     box-shadow: 0px .1em .19em 0px rgba(88, 9, 0, 0.22);
     position: relative;
     z-index: 11;
@@ -71,6 +74,7 @@
     height: 40%;
     background-color: #f45e4d;
     border-radius: 0 0 50% 50% / 0 0 22% 22%;
+    -webkit-radius: 0 0 50% 50% / 0 0 22% 22%;
     box-shadow: 0px .1em .19em 0px rgba(88, 9, 0, 0.22);
   }
   
@@ -243,7 +247,7 @@
   bottom: 0;
   top: 0;
   right: 0;
-  z-index: 10;
+  z-index: 1000;
   opacity: 0;
   font-weight: normal;
   transition-property: all;

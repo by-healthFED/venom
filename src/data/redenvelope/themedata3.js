@@ -25,7 +25,7 @@ window.themedata3 = {
     },
     // 游戏结果封底
     "gameResultBackCover": {
-      "backgroundColor": "#f45e4d"
+      "backgroundColor": "#f49a4d"
     },
     // 游戏结果
     "gameResult": {

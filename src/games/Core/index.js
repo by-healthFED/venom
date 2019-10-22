@@ -1,11 +1,13 @@
 import { ResultModal, AddressModal, Loading, tools, htmlFactory } from '@byhealth/walle';
 // import s from './template/game.scss';
+import { fixIosScroll } from './helper';
 
 const { dormancyFor, isObject } = tools;
 const { removeDom } = htmlFactory;
 
 const stamp = (new Date()).getTime();
 
+fixIosScroll();
 /**
  *
  * 游戏核心流程
