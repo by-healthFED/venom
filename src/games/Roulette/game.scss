@@ -46,6 +46,7 @@
     height: 100%;
     overflow: hidden;
     position: relative;
+    z-index: 10;
     .award, .divide {
         position: absolute;
         box-sizing: border-box;
