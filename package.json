@@ -41,7 +41,7 @@
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
-    "@byhealth/walle": "^1.0.5",
+    "@byhealth/walle": "^1.0.7",
     "autoprefix": "^1.0.1",
     "babel-polyfill": "^6.26.0",
     "inline-style-prefixer": "^5.0.3",
