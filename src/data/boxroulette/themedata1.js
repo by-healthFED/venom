@@ -236,7 +236,8 @@ window.themedata1 = {
       "zIndex": 120,
       "color": "rgba(255,255,255,1)",
       "backgroundImage": "url(http://by-health-portal2.oss-cn-beijing.aliyuncs.com/images/20190415152744574.jpg)",
-      "backgroundSize": "auto 100%"
+      "backgroundSize": "auto 100%",
+      "fontSize": "1em"
     },
     "article": {
       "paddingTop": "12em",

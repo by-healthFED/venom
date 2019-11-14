@@ -58,10 +58,12 @@ export function renderGame(style, prizes) {
 	
 	return `${modify.length > 0 ? `<div class="${s.modifywrap}">${renderModify(modify)}</div>` : ''} 
 	<div class="${s.wrap}" ${wrapStyle ? `style="${wrapStyle}"` : ''}>
-	<div class="${s.lottery}"><div class="${s.wheel}"  ${wheelStyle ? `style="${wheelStyle}"` : ''}>
-		${dom}
-	</div></div> 
-	<div class="${s.needle}" ${needleStyle ? `style="${needleStyle}"` : ''}>&nbsp;</div>
-	<div class="${s.lotterybutton}" ${lotteryButtonStyle ? `style="${lotteryButtonStyle}"` : ''}>&nbsp;</div>
+		<div class="${s.lottery}">
+			<div class="${s.wheel}"  ${wheelStyle ? `style="${wheelStyle}"` : ''}>
+				${dom}
+			</div>
+		</div> 
+		<div class="${s.needle}" ${needleStyle ? `style="${needleStyle}"` : ''}>&nbsp;</div>
+		<div class="${s.lotterybutton}" ${lotteryButtonStyle ? `style="${lotteryButtonStyle}"` : ''}>&nbsp;</div>
 	</div>`;
 }

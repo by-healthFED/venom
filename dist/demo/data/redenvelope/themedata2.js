@@ -34,12 +34,12 @@ window.themedata2 = {
     },
     // 奖品备注
     "gameResultMemo": {
-      color: "yellow"
+      color: "red"
     },
     // 确定操作按钮
     "ensureBtn": {
-      border: "1px dashed #fff",
-      color: "#fff"
+      border: "1px dashed red",
+      color: "red"
     },
     // 开始按钮
     "startButton": {},

@@ -309,7 +309,7 @@ window.themedata2 = {
         },
         "header": {
             "fontSize": "1.2em",
-            "paddingTop": "0.5em",
+            "paddingTop": "0em",
             "color": "#fbe945",
             "border": "none",
             "position": "relative",

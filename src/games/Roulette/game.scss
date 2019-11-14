@@ -8,7 +8,6 @@
     height: 100%;
     overflow: hidden;
     position: relative;
-    transform: perspective(1000);
     .needle, .lotterybutton {
         position: absolute;
         left: 50%;
@@ -19,13 +18,16 @@
         height: 25%;
         margin-top: -12.5%;
         margin-left: -12.5%;
+        transform: translateZ(9px);
         z-index: 12;
+        pointer-events: none;
     }
     .lotterybutton {
         width: 30%;
         height: 30%;
         margin-top: -15%;
         margin-left: -15%;
+        transform: translateZ(10px);
         z-index: 13;
     }
 }
@@ -46,7 +48,6 @@
     height: 100%;
     overflow: hidden;
     position: relative;
-    z-index: 10;
     .award, .divide {
         position: absolute;
         box-sizing: border-box;
