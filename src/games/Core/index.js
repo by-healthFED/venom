@@ -170,7 +170,6 @@ class Core {
 			removeDom(this.Loading.id),
 			removeDom(this.SuccessModal.state.id),
 			removeDom(this.FailedModal.state.id),
-			removeDom(this.AddressModal.state.id),
 			removeDom(this.AddressModal.state.id)
 		])
 			.then()
