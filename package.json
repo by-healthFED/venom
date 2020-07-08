@@ -1,6 +1,6 @@
 {
   "name": "@byhealth/lottery",
-  "version": "1.0.35",
+  "version": "1.0.4",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
