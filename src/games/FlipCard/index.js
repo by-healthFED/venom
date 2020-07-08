@@ -274,8 +274,13 @@ class Game {
 		const target = document.getElementById(this.targetId);
 		const items = target.querySelector(`.${s.wrap}`).children;
 		// 多触发点抽奖，启用自动抽奖时随机触发一个元素
-		const activeElements = this.activeElements || window.Math.floor(window.Math.random() * this.prizes.length);
+		let activeElements = window.Math.floor(window.Math.random() * this.prizes.length);
+		if (this.activeElements !== null) {
+			activeElements = this.activeElements;
+		}
+
 		const element = items[activeElements].children[0];
+		
 		return Promise.resolve()
 			.then(() => this.distributePrize(element, prize))
 			.then(() => this.flip(element))
